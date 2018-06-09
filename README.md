@@ -66,12 +66,12 @@ This is a backend-only service. If you're looking for the web frontend applicati
 
 ## Getting Started
 
-```bashl
-npm install -g dashcore-node@latest
-bitcore-node-dash create mynode
+```bash
+npm install -g @flus38765/aither-node
+aither-node create mynode
 cd mynode
-dashcore-node install insight-api
-dashcore-node start
+aither-node install insight-api
+aither-node start
 ```
 
 The API endpoints will be available by default at: `http://localhost:3001/insight-api/`
